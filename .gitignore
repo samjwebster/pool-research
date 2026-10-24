@@ -19,5 +19,12 @@ AGENTS.md
 # Experimental code/artifacts
 dev/
 
-# Results file
+# Local VFM feature inputs (large HDF5 files)
+data/features_unpooled/
+
+# Local evaluation state; preserve it between experiments but do not commit it
+progress.csv
+results.json
+
+# Legacy autoresearch result file
 results.tsv
